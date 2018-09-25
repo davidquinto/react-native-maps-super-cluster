@@ -53,7 +53,7 @@ export default class ClusterMarker extends Component {
     height = height <= (this.props.clusterInitialDimension * 2) ? height : this.props.clusterInitialDimension * 2
     fontSize = fontSize <= 18 ? fontSize : 18
 
-    if (pointCount >= 2 && pointCount <= 10) {
+    if (pointCount >= 1 && pointCount <= 10) {
       textForCluster = pointCount.toString()
     } if (pointCount > 10 && pointCount <= 25) {
       textForCluster = '10+'
