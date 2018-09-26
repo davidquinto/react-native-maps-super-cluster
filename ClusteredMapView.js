@@ -10,7 +10,7 @@ import {
 } from 'react-native'
 // map-related libs
 import MapView from 'react-native-maps'
-import SuperCluster from 'supercluster'
+import SuperCluster from './supercluster.min'
 import GeoViewport from '@mapbox/geo-viewport'
 // components / views
 import ClusterMarker from './ClusterMarker'
